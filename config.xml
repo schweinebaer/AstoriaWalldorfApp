@@ -1,5 +1,5 @@
 <?xml version='1.1' encoding='utf-8'?>
-<widget id="com.benediktbreitschopf.FCAstoriaWalldorfApp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.benediktbreitschopf.FCAstoriaWalldorfApp" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>FC Astoria Walldorf</name>
     <description>
         App der FC Astoria Walldorf
@@ -9,7 +9,7 @@
     </author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
-    <preference name="orientation" value="landscape" />
+    <preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
