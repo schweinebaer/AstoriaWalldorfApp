@@ -3,12 +3,12 @@
  */
 
 function cdtd() {
-    var xmas = new Date("December 25, 2012 00:01:00");
+    var xmas = new Date("October 10, 2015 14:00:00");
     var now = new Date();
     var timeDiff = xmas.getTime() - now.getTime();
     if (timeDiff <= 0) {
         clearTimeout(timer);
-        document.write("Christmas is here!");
+        document.write("LIVE");
         // Run any code needed for countdown completion here
     }
     var seconds = Math.floor(timeDiff / 1000);

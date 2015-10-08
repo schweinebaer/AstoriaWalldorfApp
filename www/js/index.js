@@ -47,3 +47,8 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+$(document).ready(function(){
+    $('.bxslider').bxSlider({
+        auto: true
+});
+});

@@ -7,8 +7,14 @@
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <script type="text/javascript" src="js/countdown.js.js"></script>
-        <title>Hello World</title>
+        <script type="text/javascript" src="js/countdown.js"></script>
+        <!-- jQuery library (served from Google) -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <!-- bxSlider Javascript file -->
+        <script src="js/jquery.bxslider.min.js"></script>
+        <!-- bxSlider CSS file -->
+        <link href="css/jquery.bxslider.css" rel="stylesheet" />
+        <title>FC Astoria Walldorf</title>
     </head>
     <body>
         <div class="top">
@@ -20,25 +26,39 @@
             </div>
         </div>
         <div class="nextMatch">
-            <div class="club1">
-                <img src="img/FC_Astoria_Walldorf_Logo.png" alt="Walldorf" height="100" width="100">
-            </div>
-            <div class="club2">
-                <img src="img/326.gif" alt="Saarbrücken" height="100" width="100">
+            <div class="vs">
+                <img src="img/VS.png" alt="VS" height="100" width="180">
             </div>
             <div class="countdown">
-                Days Remaining:
-                <div id="daysBox"></div>
-                Hours Remaining:
-                <div id="hoursBox"></div>
-                Minutes Remaining:
-                <div id="minsBox"></div>
-                Seconds Remaining:
-                <div id="secsBox"></div>
+                <div class="cd" id="daysBox"></div><div class="seperator">T</div>
+                <div class="cd" id="hoursBox"></div><div class="seperator">:</div>
+                <div class="cd" id="minsBox"></div><div class="seperator">:</div>
+                <div class="cd" id="secsBox"></div>
                 <script>cdtd();</script>
                 </div>
         </div>
-
+        <div class="newsslider">
+            <ul class="bxslider">
+                <li><p>1</p></li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+            </ul>
+        </div>
+        <div class="apps">
+            <div class="news">
+                <img src="img/news.png" alt="News" height="75" width="75"><p>Aktuelles</p>
+            </div>
+            <div class="tippspiel">
+                <img src="img/bet.png" alt="News" height="75" width="75"><p>Tippspiel</p>
+            </div>
+            <div class="kader">
+                <img src="img/schedule.png" alt="Schedule" height="75" width="75"><p>Kader</p>
+            </div>
+            <div class="spielplan">
+                <img src="img/rank.png" alt="Rank" height="75" width="75"><p>Spielplan</p>
+            </div>
+        </div>
 
 
 
