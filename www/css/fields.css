@@ -1,0 +1,61 @@
+.nextMatch{
+    border-radius: 25px;
+    background-image: url(../img/stadion.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 150px;
+    margin: 20px;
+    text-align: center;
+}
+.vs{
+    text-align: center;
+    padding-top: 5px;
+    height: 100px;
+    width: 100% ;
+}
+.countdown{
+    text-align: center;
+    height: 45px;
+    width: 100%;
+}
+.cd{
+    padding-top: 10px;
+    display: inline-block;
+    height: 35px;
+    font-size: 5em;
+    color: white;
+}
+.seperator{
+    padding-top: 10px;
+    display: inline-block;
+    height: 35px;
+    font-size: 3em;
+    color: white;
+}
+.news{
+    border-radius: 25px;
+    background-color: #0092f0;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 150px;
+    width: 50%;
+    margin: 20px;
+    text-align: center;
+}
+.tippspiel{
+    border-radius: 25px;
+    background-color: #666666;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 150px;
+    width: 50%;
+    margin: 20px;
+    text-align: center;
+
+}
+.kader{
+
+}
+.spielplan{
+
+}

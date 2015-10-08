@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <script type="text/javascript" src="js/countdown.js.js"></script>
+        <title>Hello World</title>
+    </head>
+    <body>
+        <div class="top">
+            <div class="top_logo">
+                <img src="img/FC_Astoria_Walldorf_Logo.png" alt="Logo" height="100" width="100">
+            </div>
+            <div class="top_text">
+                FC-Astoria Walldorf E.V.
+            </div>
+        </div>
+        <div class="nextMatch">
+            <div class="club1">
+                <img src="img/FC_Astoria_Walldorf_Logo.png" alt="Walldorf" height="100" width="100">
+            </div>
+            <div class="club2">
+                <img src="img/326.gif" alt="Saarbrücken" height="100" width="100">
+            </div>
+            <div class="countdown">
+                Days Remaining:
+                <div id="daysBox"></div>
+                Hours Remaining:
+                <div id="hoursBox"></div>
+                Minutes Remaining:
+                <div id="minsBox"></div>
+                Seconds Remaining:
+                <div id="secsBox"></div>
+                <script>cdtd();</script>
+                </div>
+        </div>
+
+
+
+
+        <div class="app" hidden>
+            <h1>PhoneGapE</h1>
+            <div id="deviceready" class="blink">
+                <p class="event listening">Connecting to Device</p>
+                <p class="event received">Device is Ready</p>
+            </div>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
